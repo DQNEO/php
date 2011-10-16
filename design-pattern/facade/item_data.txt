@@ -1,0 +1,4 @@
+header
+1         Tshirt                 1500
+2         Nuigurumi              2000
+3         cookie                 800
