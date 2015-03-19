@@ -1,0 +1,22 @@
+#!/bin/bash
+# configure for CentOS7
+
+prefix="/opt/php7"
+./configure --prefix=$prefix \
+--enable-cli \
+--enable-mbstring \
+--enable-xml \
+--enable-zip \
+--enable-fpm \
+--enable-ftp \
+--enable-exif \
+--enable-fileinfo \
+--enable-pcntl \
+--enable-pdo \
+--with-curl \
+--with-gd \
+--with-curl=/usr \
+--with-openssl=/usr \
+--enable-json
+
+#--enable-intl \
