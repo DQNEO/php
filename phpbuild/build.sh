@@ -11,7 +11,7 @@ yum clean all
 git clone git://github.com/php/php-src
 cd php-src
 ./buildconf
-./configure
+./myconfigure
 
 
 
