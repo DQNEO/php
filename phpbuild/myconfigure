@@ -16,7 +16,6 @@ prefix="/opt/php7"
 --with-curl \
 --with-gd \
 --with-curl=/usr \
---with-openssl=/usr \
+--with-openssl \
 --enable-json
-
 #--enable-intl \
