@@ -11,7 +11,7 @@ yum -y install wget tar
 yum -y install make gcc autoconf bison re2c
 
 # for extensions
-yum -y install libxml2-devel libcurl-devel
+yum -y install libxml2-devel libcurl-devel libpng-devel
 
 yum clean all
 
